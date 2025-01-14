@@ -1,0 +1,72 @@
+@import "./nprogress.scss";
+@import "./animate.scss";
+@import "./element-custom.scss";
+
+// 自定义字体
+@font-face {
+  font-family: "PingFang-win";
+  font-display: swap;
+  src:
+    local("PingFang SC"),
+    url(/PingFangSC-Regular.woff2) format("woff2");
+}
+body {
+  height: 100vh;
+  background: linear-gradient(163deg, #eef5fd 0%, #eff5fb 100%);
+  overflow: hidden;
+  font-family: "PingFang SC", "PingFang-win", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+div,
+section,
+footer,
+header,
+aside,
+article,
+nav,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
+}
+
+a {
+  &:link {
+    color: var(--el-color-primary);
+    text-decoration: none;
+  }
+  &:hover {
+    color: var(--el-color-primary);
+    text-decoration-line: underline;
+  }
+  &:visited {
+    color: var(--el-color-primary);
+    opacity: 0.9;
+  }
+  &:active {
+    opacity: 0.9;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}

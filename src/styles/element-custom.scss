@@ -1,0 +1,52 @@
+#app {
+  .el-dialog__header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ebebeb;
+    margin-right: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: -16px -16px 0;
+    height: 57px;
+    display: flex;
+    align-items: center;
+  }
+  .el-dialog__headerbtn {
+    right: 4px;
+    top: 6px;
+  }
+  .el-dialog__title {
+    font-weight: 600;
+  }
+  .el-dialog__body {
+    padding: 24px 8px 8px;
+  }
+
+  .el-button + .el-button {
+    margin-left: 16px;
+  }
+
+  .el-drawer__title {
+    font-size: 16px;
+    font-family:
+      PingFang SC,
+      PingFang SC;
+    font-weight: 600;
+    color: #181818;
+    line-height: 19px;
+  }
+  .el-drawer__header {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+  }
+  .el-drawer__body {
+    padding: 0;
+  }
+  .el-form-item .el-form-item__label {
+    color: #242627;
+  }
+  .el-tabs .el-tabs__nav-wrap::after {
+    height: 1px;
+  }
+}
