@@ -1,6 +1,6 @@
-@import "./nprogress.scss";
-@import "./animate.scss";
-@import "./element-custom.scss";
+@use "./nprogress";
+@use "./animate";
+@use "./element-custom";
 
 // 自定义字体
 @font-face {

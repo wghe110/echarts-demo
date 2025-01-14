@@ -3,14 +3,14 @@ import App from './App.vue'
 import 'normalize.css'
 import './styles/index.scss'
 import router from './router/index';
-import './router/router-guard'
-import store from './store';
 import customCom from './components/index';
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 
 const app = createApp(App);
 
+app.use(ElementPlus)
 app.use(router)
-app.use(store)
 app.use(customCom)
 
 app.mount('#app')
